@@ -214,7 +214,13 @@
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
           "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
+          "bends" : [ {
+            "x" : 1656.0,
+            "y" : -7928.0
+          }, {
+            "x" : 1752.0,
+            "y" : -8048.0
+          } ],
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
@@ -228,7 +234,7 @@
           "groupIdentifier" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
           "identifier" : "40c6c76c-608f-314e-8403-d0e7be5712d4",
           "instanceIdentifier" : "bd821608-105b-1183-d4f6-f2c3a41e9f92",
-          "labelIndex" : 1,
+          "labelIndex" : 0,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
           "name" : "",
@@ -242,6 +248,45 @@
             "instanceIdentifier" : "bd8215ff-105b-1183-8843-4f6059dd2429",
             "name" : "Funnel",
             "type" : "FUNNEL"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ {
+            "x" : 1336.0,
+            "y" : -7600.0
+          }, {
+            "x" : 1504.0,
+            "y" : -7616.0
+          } ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
+            "id" : "931d1004-02c8-3586-aede-f8c83aa52e21",
+            "instanceIdentifier" : "bd8215ff-105b-1183-8843-4f6059dd2429",
+            "name" : "Funnel",
+            "type" : "FUNNEL"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
+          "identifier" : "93bb3a13-768f-3f32-aec1-5d8d2e3fdc1c",
+          "instanceIdentifier" : "bd821611-105b-1183-cf2d-2247df82bdef",
+          "labelIndex" : 0,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
+            "id" : "f2f8fc2a-34fa-3a36-bfad-f043b8358c4d",
+            "instanceIdentifier" : "bd821610-105b-1183-e8ce-736e40e3208b",
+            "name" : "QueryDatabaseTableRecord",
+            "type" : "PROCESSOR"
           },
           "zIndex" : 0
         }, {
@@ -307,6 +352,42 @@
             "id" : "93e4e495-cd68-3d98-88df-23b93e20cd02",
             "instanceIdentifier" : "01831004-9705-1524-24f8-0a19cccc7932",
             "name" : "QueryRecord",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ {
+            "x" : 1424.0,
+            "y" : -6688.0
+          } ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
+            "id" : "4a128605-1ec1-346b-9bd2-649e9b31da01",
+            "instanceIdentifier" : "bd8215e5-105b-1183-98cf-012f3cf60062",
+            "name" : "Funnel",
+            "type" : "FUNNEL"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
+          "identifier" : "ee10b136-a0d2-33cf-b6c5-0400521e76e8",
+          "instanceIdentifier" : "bd821614-105b-1183-333a-ff178bba28fd",
+          "labelIndex" : 0,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
+            "id" : "2707f0c9-aae5-3ece-98c8-2ef4bfa36dc9",
+            "instanceIdentifier" : "bd821613-105b-1183-cf49-8148f2f27a4f",
+            "name" : "QueryDatabaseTableRecord",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -445,7 +526,10 @@
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
           "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
+          "bends" : [ {
+            "x" : 1304.0,
+            "y" : -7944.0
+          } ],
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
@@ -459,7 +543,7 @@
           "groupIdentifier" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
           "identifier" : "52fef87b-edad-35cb-bc55-2fe00620103b",
           "instanceIdentifier" : "bd821607-105b-1183-5e24-08bd8364f930",
-          "labelIndex" : 1,
+          "labelIndex" : 0,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
           "name" : "",
@@ -808,7 +892,10 @@
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
           "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
+          "bends" : [ {
+            "x" : 1328.0,
+            "y" : -6880.0
+          } ],
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
@@ -822,7 +909,7 @@
           "groupIdentifier" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
           "identifier" : "7e70498b-a5a3-35e7-8c14-940e05885848",
           "instanceIdentifier" : "bd8215f9-105b-1183-7e8b-743b9db2ea9a",
-          "labelIndex" : 1,
+          "labelIndex" : 0,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
           "name" : "",
@@ -1138,7 +1225,10 @@
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
           "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
+          "bends" : [ {
+            "x" : 1344.0,
+            "y" : -7160.0
+          } ],
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
@@ -1152,7 +1242,7 @@
           "groupIdentifier" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
           "identifier" : "3de662db-0e24-3a72-b850-cebf0f3227c8",
           "instanceIdentifier" : "bd8215e6-105b-1183-2194-bde3e3c200dd",
-          "labelIndex" : 1,
+          "labelIndex" : 0,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
           "name" : "",
@@ -1237,7 +1327,10 @@
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
           "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
+          "bends" : [ {
+            "x" : 1400.0,
+            "y" : -8080.0
+          } ],
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
@@ -1251,7 +1344,7 @@
           "groupIdentifier" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
           "identifier" : "3484922d-e795-34f3-befa-93bc48fe2b7e",
           "instanceIdentifier" : "bd821606-105b-1183-eed6-cb7dd7a210fb",
-          "labelIndex" : 1,
+          "labelIndex" : 0,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
           "name" : "",
@@ -2519,7 +2612,7 @@
           "instanceIdentifier" : "bd8215e5-105b-1183-98cf-012f3cf60062",
           "position" : {
             "x" : 1472.0,
-            "y" : -7000.0
+            "y" : -7016.0
           }
         } ],
         "identifier" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
@@ -2573,7 +2666,7 @@
           "style" : {
             "font-size" : "24px"
           },
-          "width" : 1536.0,
+          "width" : 1488.0,
           "zIndex" : 0
         }, {
           "componentType" : "LABEL",
@@ -2581,13 +2674,13 @@
           "height" : 784.0,
           "identifier" : "039bc578-6da1-38ad-a29e-775fa1f6a2a7",
           "instanceIdentifier" : "bd8215fe-105b-1183-9fea-c6ff9664244c",
-          "label" : "Risk/Obj/ActionPlan Data in xml Format",
+          "label" : "Risk/Obj/ActionPlan Data in XML Format",
           "position" : {
             "x" : 752.0,
             "y" : -8232.0
           },
           "style" : {
-            "background-color" : "#999999",
+            "background-color" : "#ebd52f",
             "font-size" : "24px"
           },
           "width" : 1536.0,
@@ -3026,6 +3119,164 @@
           "type" : "org.apache.nifi.processors.standard.LogAttribute",
           "yieldDuration" : "1 sec"
         }, {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.17.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "PRIMARY",
+          "groupIdentifier" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
+          "identifier" : "2707f0c9-aae5-3ece-98c8-2ef4bfa36dc9",
+          "instanceIdentifier" : "bd821613-105b-1183-cf49-8148f2f27a4f",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "QueryDatabaseTableRecord",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 808.0,
+            "y" : -6720.0
+          },
+          "properties" : {
+            "Table Name" : "TstDtlView",
+            "db-fetch-db-type" : "Generic",
+            "dbf-default-precision" : "10",
+            "qdbtr-record-writer" : "9633a539-9205-3023-8729-852359bdd83e",
+            "Max Wait Time" : "0 seconds",
+            "Database Connection Pooling Service" : "2b3ed5ba-59e2-388e-9d9f-4211aa3afd96",
+            "dbf-user-logical-types" : "false",
+            "qdbt-output-batch-size" : "0",
+            "qdbt-max-rows" : "0",
+            "qdbt-max-frags" : "0",
+            "dbf-default-scale" : "0",
+            "initial-load-strategy" : "Start at Beginning",
+            "Fetch Size" : "0",
+            "qdbtr-normalize" : "false"
+          },
+          "propertyDescriptors" : {
+            "Table Name" : {
+              "displayName" : "Table Name",
+              "identifiesControllerService" : false,
+              "name" : "Table Name",
+              "sensitive" : false
+            },
+            "db-fetch-db-type" : {
+              "displayName" : "Database Type",
+              "identifiesControllerService" : false,
+              "name" : "db-fetch-db-type",
+              "sensitive" : false
+            },
+            "dbf-default-precision" : {
+              "displayName" : "Default Decimal Precision",
+              "identifiesControllerService" : false,
+              "name" : "dbf-default-precision",
+              "sensitive" : false
+            },
+            "qdbtr-record-writer" : {
+              "displayName" : "Record Writer",
+              "identifiesControllerService" : true,
+              "name" : "qdbtr-record-writer",
+              "sensitive" : false
+            },
+            "Max Wait Time" : {
+              "displayName" : "Max Wait Time",
+              "identifiesControllerService" : false,
+              "name" : "Max Wait Time",
+              "sensitive" : false
+            },
+            "Database Connection Pooling Service" : {
+              "displayName" : "Database Connection Pooling Service",
+              "identifiesControllerService" : true,
+              "name" : "Database Connection Pooling Service",
+              "sensitive" : false
+            },
+            "Maximum-value Columns" : {
+              "displayName" : "Maximum-value Columns",
+              "identifiesControllerService" : false,
+              "name" : "Maximum-value Columns",
+              "sensitive" : false
+            },
+            "dbf-user-logical-types" : {
+              "displayName" : "Use Avro Logical Types",
+              "identifiesControllerService" : false,
+              "name" : "dbf-user-logical-types",
+              "sensitive" : false
+            },
+            "qdbt-output-batch-size" : {
+              "displayName" : "Output Batch Size",
+              "identifiesControllerService" : false,
+              "name" : "qdbt-output-batch-size",
+              "sensitive" : false
+            },
+            "qdbt-max-rows" : {
+              "displayName" : "Max Rows Per Flow File",
+              "identifiesControllerService" : false,
+              "name" : "qdbt-max-rows",
+              "sensitive" : false
+            },
+            "qdbt-max-frags" : {
+              "displayName" : "Maximum Number of Fragments",
+              "identifiesControllerService" : false,
+              "name" : "qdbt-max-frags",
+              "sensitive" : false
+            },
+            "dbf-default-scale" : {
+              "displayName" : "Default Decimal Scale",
+              "identifiesControllerService" : false,
+              "name" : "dbf-default-scale",
+              "sensitive" : false
+            },
+            "initial-load-strategy" : {
+              "displayName" : "Initial Load Strategy",
+              "identifiesControllerService" : false,
+              "name" : "initial-load-strategy",
+              "sensitive" : false
+            },
+            "Fetch Size" : {
+              "displayName" : "Fetch Size",
+              "identifiesControllerService" : false,
+              "name" : "Fetch Size",
+              "sensitive" : false
+            },
+            "db-fetch-sql-query" : {
+              "displayName" : "Custom Query",
+              "identifiesControllerService" : false,
+              "name" : "db-fetch-sql-query",
+              "sensitive" : false
+            },
+            "qdbtr-normalize" : {
+              "displayName" : "Normalize Table/Column Names",
+              "identifiesControllerService" : false,
+              "name" : "qdbtr-normalize",
+              "sensitive" : false
+            },
+            "Columns to Return" : {
+              "displayName" : "Columns to Return",
+              "identifiesControllerService" : false,
+              "name" : "Columns to Return",
+              "sensitive" : false
+            },
+            "db-fetch-where-clause" : {
+              "displayName" : "Additional WHERE clause",
+              "identifiesControllerService" : false,
+              "name" : "db-fetch-where-clause",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "600 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.QueryDatabaseTableRecord",
+          "yieldDuration" : "1 sec"
+        }, {
           "autoTerminatedRelationships" : [ "success", "failure" ],
           "backoffMechanism" : "PENALIZE_FLOWFILE",
           "bulletinLevel" : "WARN",
@@ -3132,7 +3383,7 @@
           "name" : "QueryDatabaseTableRecord",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 800.0,
+            "x" : 808.0,
             "y" : -7976.0
           },
           "properties" : {
@@ -4148,7 +4399,7 @@
           "name" : "QueryDatabaseTableRecord",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 800.0,
+            "x" : 808.0,
             "y" : -8152.0
           },
           "properties" : {
@@ -5029,7 +5280,7 @@
           },
           "properties" : {
             "Create Missing Directories" : "true",
-            "Directory" : "savedatausingfunnel",
+            "Directory" : "JsonData",
             "Conflict Resolution Strategy" : "fail"
           },
           "propertyDescriptors" : {
@@ -5328,12 +5579,12 @@
           "name" : "PutFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 1848.0,
-            "y" : -7672.0
+            "x" : 1880.0,
+            "y" : -7720.0
           },
           "properties" : {
             "Create Missing Directories" : "true",
-            "Directory" : "savedatausingfunnel",
+            "Directory" : "XMLData",
             "Conflict Resolution Strategy" : "fail"
           },
           "propertyDescriptors" : {
@@ -5772,8 +6023,8 @@
           "name" : "UpdateAttribute",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 1848.0,
-            "y" : -7912.0
+            "x" : 1872.0,
+            "y" : -7976.0
           },
           "properties" : {
             "filename" : "${tablename}.xml",
@@ -6272,6 +6523,171 @@
           "runDurationMillis" : 0,
           "scheduledState" : "ENABLED",
           "schedulingPeriod" : "60 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.QueryDatabaseTableRecord",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.17.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "PRIMARY",
+          "groupIdentifier" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
+          "identifier" : "f2f8fc2a-34fa-3a36-bfad-f043b8358c4d",
+          "instanceIdentifier" : "bd821610-105b-1183-e8ce-736e40e3208b",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "QueryDatabaseTableRecord",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 808.0,
+            "y" : -7624.0
+          },
+          "properties" : {
+            "Table Name" : "TstDtlView",
+            "db-fetch-db-type" : "Generic",
+            "dbf-default-precision" : "10",
+            "qdbtr-record-writer" : "9633a539-9205-3023-8729-852359bdd83e",
+            "datafilename" : "actionplandata",
+            "Max Wait Time" : "0 seconds",
+            "Database Connection Pooling Service" : "2b3ed5ba-59e2-388e-9d9f-4211aa3afd96",
+            "dbf-user-logical-types" : "false",
+            "qdbt-output-batch-size" : "0",
+            "qdbt-max-rows" : "0",
+            "qdbt-max-frags" : "0",
+            "dbf-default-scale" : "0",
+            "initial-load-strategy" : "Start at Beginning",
+            "Fetch Size" : "0",
+            "qdbtr-normalize" : "false"
+          },
+          "propertyDescriptors" : {
+            "Table Name" : {
+              "displayName" : "Table Name",
+              "identifiesControllerService" : false,
+              "name" : "Table Name",
+              "sensitive" : false
+            },
+            "db-fetch-db-type" : {
+              "displayName" : "Database Type",
+              "identifiesControllerService" : false,
+              "name" : "db-fetch-db-type",
+              "sensitive" : false
+            },
+            "dbf-default-precision" : {
+              "displayName" : "Default Decimal Precision",
+              "identifiesControllerService" : false,
+              "name" : "dbf-default-precision",
+              "sensitive" : false
+            },
+            "qdbtr-record-writer" : {
+              "displayName" : "Record Writer",
+              "identifiesControllerService" : true,
+              "name" : "qdbtr-record-writer",
+              "sensitive" : false
+            },
+            "datafilename" : {
+              "displayName" : "datafilename",
+              "identifiesControllerService" : false,
+              "name" : "datafilename",
+              "sensitive" : false
+            },
+            "Max Wait Time" : {
+              "displayName" : "Max Wait Time",
+              "identifiesControllerService" : false,
+              "name" : "Max Wait Time",
+              "sensitive" : false
+            },
+            "Database Connection Pooling Service" : {
+              "displayName" : "Database Connection Pooling Service",
+              "identifiesControllerService" : true,
+              "name" : "Database Connection Pooling Service",
+              "sensitive" : false
+            },
+            "Maximum-value Columns" : {
+              "displayName" : "Maximum-value Columns",
+              "identifiesControllerService" : false,
+              "name" : "Maximum-value Columns",
+              "sensitive" : false
+            },
+            "dbf-user-logical-types" : {
+              "displayName" : "Use Avro Logical Types",
+              "identifiesControllerService" : false,
+              "name" : "dbf-user-logical-types",
+              "sensitive" : false
+            },
+            "qdbt-output-batch-size" : {
+              "displayName" : "Output Batch Size",
+              "identifiesControllerService" : false,
+              "name" : "qdbt-output-batch-size",
+              "sensitive" : false
+            },
+            "qdbt-max-rows" : {
+              "displayName" : "Max Rows Per Flow File",
+              "identifiesControllerService" : false,
+              "name" : "qdbt-max-rows",
+              "sensitive" : false
+            },
+            "qdbt-max-frags" : {
+              "displayName" : "Maximum Number of Fragments",
+              "identifiesControllerService" : false,
+              "name" : "qdbt-max-frags",
+              "sensitive" : false
+            },
+            "dbf-default-scale" : {
+              "displayName" : "Default Decimal Scale",
+              "identifiesControllerService" : false,
+              "name" : "dbf-default-scale",
+              "sensitive" : false
+            },
+            "initial-load-strategy" : {
+              "displayName" : "Initial Load Strategy",
+              "identifiesControllerService" : false,
+              "name" : "initial-load-strategy",
+              "sensitive" : false
+            },
+            "Fetch Size" : {
+              "displayName" : "Fetch Size",
+              "identifiesControllerService" : false,
+              "name" : "Fetch Size",
+              "sensitive" : false
+            },
+            "db-fetch-sql-query" : {
+              "displayName" : "Custom Query",
+              "identifiesControllerService" : false,
+              "name" : "db-fetch-sql-query",
+              "sensitive" : false
+            },
+            "qdbtr-normalize" : {
+              "displayName" : "Normalize Table/Column Names",
+              "identifiesControllerService" : false,
+              "name" : "qdbtr-normalize",
+              "sensitive" : false
+            },
+            "Columns to Return" : {
+              "displayName" : "Columns to Return",
+              "identifiesControllerService" : false,
+              "name" : "Columns to Return",
+              "sensitive" : false
+            },
+            "db-fetch-where-clause" : {
+              "displayName" : "Additional WHERE clause",
+              "identifiesControllerService" : false,
+              "name" : "db-fetch-where-clause",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "600 sec",
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
           "type" : "org.apache.nifi.processors.standard.QueryDatabaseTableRecord",
@@ -7622,7 +8038,7 @@
           "name" : "QueryDatabaseTableRecord",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 800.0,
+            "x" : 808.0,
             "y" : -7800.0
           },
           "properties" : {
@@ -7630,6 +8046,7 @@
             "db-fetch-db-type" : "Generic",
             "dbf-default-precision" : "10",
             "qdbtr-record-writer" : "9633a539-9205-3023-8729-852359bdd83e",
+            "datafilename" : "actionplandata",
             "Max Wait Time" : "0 seconds",
             "Database Connection Pooling Service" : "2b3ed5ba-59e2-388e-9d9f-4211aa3afd96",
             "dbf-user-logical-types" : "false",
@@ -7664,6 +8081,12 @@
               "displayName" : "Record Writer",
               "identifiesControllerService" : true,
               "name" : "qdbtr-record-writer",
+              "sensitive" : false
+            },
+            "datafilename" : {
+              "displayName" : "datafilename",
+              "identifiesControllerService" : false,
+              "name" : "datafilename",
               "sensitive" : false
             },
             "Max Wait Time" : {
@@ -9433,8 +9856,8 @@
           "name" : "ConvertRecord",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 1848.0,
-            "y" : -8136.0
+            "x" : 1864.0,
+            "y" : -8184.0
           },
           "properties" : {
             "record-writer" : "8dae7e42-6f9d-365c-baa4-84c9c2148ef2",
