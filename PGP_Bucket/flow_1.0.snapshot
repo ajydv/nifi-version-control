@@ -218,8 +218,8 @@
             "x" : 1656.0,
             "y" : -7928.0
           }, {
-            "x" : 1752.0,
-            "y" : -8048.0
+            "x" : 1648.0,
+            "y" : -8096.0
           } ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -285,7 +285,7 @@
             "groupId" : "d7be2899-7f6d-3551-b29e-ff01c9c3144c",
             "id" : "f2f8fc2a-34fa-3a36-bfad-f043b8358c4d",
             "instanceIdentifier" : "bd821610-105b-1183-e8ce-736e40e3208b",
-            "name" : "QueryDatabaseTableRecord",
+            "name" : "TstDtl",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -2661,7 +2661,7 @@
           "label" : "Risk/Obj/ActionPlan Data in Json Format",
           "position" : {
             "x" : 752.0,
-            "y" : -7336.0
+            "y" : -7337.47265625
           },
           "style" : {
             "font-size" : "24px"
@@ -2925,8 +2925,8 @@
         "name" : "PGP DB Connection Demo",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 176.0,
-          "y" : -40.0
+          "x" : 504.0,
+          "y" : -8.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -3139,10 +3139,10 @@
           "penaltyDuration" : "30 sec",
           "position" : {
             "x" : 808.0,
-            "y" : -6720.0
+            "y" : -6721.47265625
           },
           "properties" : {
-            "Table Name" : "TstDtlView",
+            "Table Name" : "TstDtl",
             "db-fetch-db-type" : "Generic",
             "dbf-default-precision" : "10",
             "qdbtr-record-writer" : "9633a539-9205-3023-8729-852359bdd83e",
@@ -3155,7 +3155,8 @@
             "dbf-default-scale" : "0",
             "initial-load-strategy" : "Start at Beginning",
             "Fetch Size" : "0",
-            "qdbtr-normalize" : "false"
+            "qdbtr-normalize" : "false",
+            "db-fetch-where-clause" : "TstDtlEntityTypeID in (0,1,541,542,543,544,545,550,555)"
           },
           "propertyDescriptors" : {
             "Table Name" : {
@@ -3400,7 +3401,8 @@
             "dbf-default-scale" : "0",
             "initial-load-strategy" : "Start at Beginning",
             "Fetch Size" : "0",
-            "qdbtr-normalize" : "false"
+            "qdbtr-normalize" : "false",
+            "db-fetch-where-clause" : "ProcObjvEntityTypeID in (0,1,541,542,543,544,545,550,555)"
           },
           "propertyDescriptors" : {
             "Table Name" : {
@@ -4416,7 +4418,8 @@
             "dbf-default-scale" : "0",
             "initial-load-strategy" : "Start at Beginning",
             "Fetch Size" : "0",
-            "qdbtr-normalize" : "false"
+            "qdbtr-normalize" : "false",
+            "db-fetch-where-clause" : "ProcRskEntityTypeID in (0,1,541,542,543,544,545,550,555)"
           },
           "propertyDescriptors" : {
             "Table Name" : {
@@ -5281,7 +5284,7 @@
           "properties" : {
             "Create Missing Directories" : "true",
             "Directory" : "JsonData",
-            "Conflict Resolution Strategy" : "fail"
+            "Conflict Resolution Strategy" : "replace"
           },
           "propertyDescriptors" : {
             "Group" : {
@@ -5585,7 +5588,7 @@
           "properties" : {
             "Create Missing Directories" : "true",
             "Directory" : "XMLData",
-            "Conflict Resolution Strategy" : "fail"
+            "Conflict Resolution Strategy" : "replace"
           },
           "propertyDescriptors" : {
             "Group" : {
@@ -6109,7 +6112,8 @@
             "dbf-default-scale" : "0",
             "initial-load-strategy" : "Start at Beginning",
             "Fetch Size" : "0",
-            "qdbtr-normalize" : "false"
+            "qdbtr-normalize" : "false",
+            "db-fetch-where-clause" : "ProcObjvEntityTypeID in (0,1,541,542,543,544,545,550,555)"
           },
           "propertyDescriptors" : {
             "Table Name" : {
@@ -6544,14 +6548,14 @@
           "identifier" : "f2f8fc2a-34fa-3a36-bfad-f043b8358c4d",
           "instanceIdentifier" : "bd821610-105b-1183-e8ce-736e40e3208b",
           "maxBackoffPeriod" : "10 mins",
-          "name" : "QueryDatabaseTableRecord",
+          "name" : "TstDtl",
           "penaltyDuration" : "30 sec",
           "position" : {
             "x" : 808.0,
             "y" : -7624.0
           },
           "properties" : {
-            "Table Name" : "TstDtlView",
+            "Table Name" : "TstDtl",
             "db-fetch-db-type" : "Generic",
             "dbf-default-precision" : "10",
             "qdbtr-record-writer" : "9633a539-9205-3023-8729-852359bdd83e",
@@ -6565,7 +6569,8 @@
             "dbf-default-scale" : "0",
             "initial-load-strategy" : "Start at Beginning",
             "Fetch Size" : "0",
-            "qdbtr-normalize" : "false"
+            "qdbtr-normalize" : "false",
+            "db-fetch-where-clause" : "TstDtlEntityTypeID in (0,1,541,542,543,544,545,550,555)"
           },
           "propertyDescriptors" : {
             "Table Name" : {
@@ -6729,7 +6734,8 @@
             "dbf-default-scale" : "0",
             "initial-load-strategy" : "Start at Beginning",
             "Fetch Size" : "0",
-            "qdbtr-normalize" : "false"
+            "qdbtr-normalize" : "false",
+            "db-fetch-where-clause" : "ProcRskEntityTypeID in (0,1,541,542,543,544,545,550,555)"
           },
           "propertyDescriptors" : {
             "Table Name" : {

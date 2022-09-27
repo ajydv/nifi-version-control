@@ -1,6 +1,6 @@
 flows:
-  84227a83-5720-49e1-806c-bd470f0bc5f9: {ver: 6, file: flow_1.0.snapshot, comments: '',
-    author: anonymous, created: 1663924067200, flowName: flow 1.0, flowDesc: intial
+  84227a83-5720-49e1-806c-bd470f0bc5f9: {ver: 7, file: flow_1.0.snapshot, comments: where
+      clause, author: anonymous, created: 1664268995263, flowName: flow 1.0, flowDesc: intial
       flow}
 layoutVer: 1
 bucketId: ee16448c-53a4-43df-bb47-a2db13ab06a0
