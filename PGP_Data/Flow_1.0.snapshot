@@ -2985,7 +2985,7 @@
           "height" : 840.0,
           "identifier" : "5408ca39-8efa-37a6-82f6-1dc07afc68b7",
           "instanceIdentifier" : "bd8215e3-105b-1183-cc09-870fb1cf85d2",
-          "label" : "Risk/Obj/ActionPlan/Test Details Data\nUse Jolt Transform Json Data in in Json",
+          "label" : "Risk/Obj/ActionPlan/Test Details Data\nUse Jolt Transform Json Data in Json",
           "position" : {
             "x" : 752.0,
             "y" : -7392.0
